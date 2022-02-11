@@ -100,21 +100,48 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewFile-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject-1-0.png",
         "kind": "image",
         "metadata": "",
         "name": "NewObject-1-0.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Alert-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alert-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Barricade-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barricade-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Barricade-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barricade-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -146,11 +173,48 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8799999999999941,
+        "zoomFactor": 0.6999999999999938,
         "windowMask": false
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "Solid",
+          "objects": [
+            {
+              "name": "Player"
+            },
+            {
+              "name": "Wall"
+            },
+            {
+              "name": "Barricade"
+            }
+          ]
+        },
+        {
+          "name": "Terrain",
+          "objects": [
+            {
+              "name": "Wall"
+            },
+            {
+              "name": "Barricade"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "IntersectionX",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "IntersectionY",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -177,8 +241,8 @@
           "name": "Zambambo",
           "persistentUuid": "0902884e-8789-4cfd-900a-6f5406ec8b0f",
           "width": 0,
-          "x": 800,
-          "y": 448,
+          "x": 416,
+          "y": 544,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -187,15 +251,63 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "Wall",
-          "persistentUuid": "3a0f8f0d-1983-4401-be5e-e2fae6328d42",
-          "width": 64,
-          "x": 896,
-          "y": 384,
-          "zOrder": 3,
+          "persistentUuid": "f5db193f-cd5a-4814-974d-925a2550dace",
+          "width": 320,
+          "x": 384,
+          "y": 224,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 384,
+          "layer": "",
+          "locked": false,
+          "name": "Wall",
+          "persistentUuid": "3f4e7486-fc03-4b08-b5fb-cb5367aad6f6",
+          "width": 32,
+          "x": 384,
+          "y": 256,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Wall",
+          "persistentUuid": "4754ce1b-5579-4524-af22-ce652b3fcd16",
+          "width": 288,
+          "x": 416,
+          "y": 608,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "layer": "",
+          "locked": false,
+          "name": "Wall",
+          "persistentUuid": "502a5ee5-0550-465f-a40f-3b9dfb017a59",
+          "width": 32,
+          "x": 672,
+          "y": 320,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -206,108 +318,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Wall",
-          "persistentUuid": "7e92acf9-3b3e-4941-b832-f194d6c37378",
+          "name": "Barricade",
+          "persistentUuid": "74887bab-c844-4ea8-97dc-8a9a63e9d25c",
           "width": 0,
-          "x": 960,
-          "y": 384,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Wall",
-          "persistentUuid": "4d791832-6ec5-49b4-b1e4-f4e67c1e2e32",
-          "width": 0,
-          "x": 1024,
-          "y": 384,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Wall",
-          "persistentUuid": "74bb49f1-39cb-43ee-911f-80d1bdba8365",
-          "width": 0,
-          "x": 1024,
-          "y": 448,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Wall",
-          "persistentUuid": "a67d035d-93bb-48d1-b8cf-0cd10814682f",
-          "width": 0,
-          "x": 896,
-          "y": 448,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Wall",
-          "persistentUuid": "0a21ad0f-ac17-4d57-9f32-27dc5f566080",
-          "width": 0,
-          "x": 896,
-          "y": 512,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Wall",
-          "persistentUuid": "6df9fe0c-45c5-45df-a7ae-4eeee754f002",
-          "width": 0,
-          "x": 1024,
-          "y": 512,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Zambambo",
-          "persistentUuid": "6dbaa838-8c97-41d3-aa5e-14c0cfcb302f",
-          "width": 0,
-          "x": 1120,
-          "y": 448,
-          "zOrder": 10,
+          "x": 704,
+          "y": 192,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -367,7 +383,7 @@
                   "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "Idle-1-0.png",
                       "points": [],
                       "originPoint": {
@@ -381,7 +397,62 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.400001525878906,
+                            "y": 3.5
+                          },
+                          {
+                            "x": 43.79999923706055,
+                            "y": 5.099999904632568
+                          },
+                          {
+                            "x": 48.20000076293945,
+                            "y": 14.100000381469727
+                          },
+                          {
+                            "x": 45,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 62.79999923706055,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 47.20000076293945,
+                            "y": 39.900001525878906
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 9,
+                            "y": 36.5
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 26.100000381469727
+                          },
+                          {
+                            "x": 20.600000381469727,
+                            "y": 15.300000190734863
+                          },
+                          {
+                            "x": 23.799999237060547,
+                            "y": 5.300000190734863
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -394,7 +465,13 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Alert",
+              "type": "string",
+              "value": "1"
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -405,6 +482,10 @@
               "MaxHealth": 25,
               "IsJustDamaged": false,
               "CooldownActive": false
+            },
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
             },
             {
               "acceleration": 200,
@@ -498,28 +579,6 @@
           ]
         },
         {
-          "height": 64,
-          "name": "Wall",
-          "tags": "",
-          "texture": "NewFile-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "LightObstacleBehavior",
-              "type": "Lighting::LightObstacleBehavior"
-            },
-            {
-              "cost": 2,
-              "impassable": true,
-              "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
-            }
-          ]
-        },
-        {
           "name": "Bullet",
           "tags": "",
           "type": "Sprite",
@@ -577,43 +636,159 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Light",
+          "tags": "",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 500,
+            "color": "255;255;255",
+            "debugMode": false,
+            "texture": ""
+          }
+        },
+        {
+          "height": 32,
+          "name": "Wall",
+          "tags": "",
+          "texture": "NewFile-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            },
+            {
+              "cost": 2,
+              "impassable": true,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+            }
+          ]
+        },
+        {
+          "name": "Alert",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Alert",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Alert-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barricade",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 50,
+              "DamageCooldown": 1,
+              "MaxHealth": 50,
+              "IsJustDamaged": false,
+              "CooldownActive": false
+            },
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            },
+            {
+              "cost": 2,
+              "impassable": true,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Barricade",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Barricade-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Zambambo",
-                "Pathfinding",
-                "",
-                "Player.X()",
-                "Player.Y()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PathfindingBehavior::AllowDiagonals"
-              },
-              "parameters": [
-                "Zambambo",
-                "Pathfinding",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Bullet Controls/Management",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -623,11 +798,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "MouseButtonPressed"
               },
               "parameters": [
                 "",
-                "Numpad0"
+                "Left"
               ],
               "subInstructions": []
             }
@@ -644,14 +819,70 @@
                 "Player.X()",
                 "Player.Y()",
                 "Bullet",
-                "Zambambo.X()",
-                "Zambambo.Y()",
-                "200",
+                "MouseX()",
+                "MouseY()",
+                "500",
                 ""
               ],
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "Terrain",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Terrain",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "infiniteLoopWarning": true,
+          "type": "BuiltinCommonInstructions::While",
+          "whileConditions": [],
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
@@ -701,6 +932,375 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Placeable barriers",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Barricade",
+                "32*(round(MouseX()/32))",
+                "32*(round(MouseY()/32))",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Prevent player from moving through walls",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Wall",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "Wall",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Barricade",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "Barricade",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Zambambo Detection of Player via Raycasting",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Zambambo",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Raycast"
+              },
+              "parameters": [
+                "Solid",
+                "Zambambo.X()",
+                "Zambambo.Y()",
+                "Zambambo.AngleToObject(Player)",
+                "60000",
+                "IntersectionX",
+                "IntersectionY",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If there is a clear path between the zambambo and the player, the zambambo becomes alert",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NbObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Alert",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Zambambo pathfinding. While alert, they will follow the player but will stop if in collision with a barricade",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Zambambo",
+                "Alert",
+                "=",
+                "1\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Zambambo",
+                "Pathfinding",
+                "",
+                "Player.X() + Random(60)",
+                "Player.Y() + Random(60)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Zambambo",
+                "Barricade",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Zambambo",
+                "Pathfinding",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Zambambo",
+                "Barricade",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Zambambo",
+                "Pathfinding",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Detecting Zambambo bullet hits. If hp goes to 0, delete the zambambo\n",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -777,6 +1377,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "UI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 128,
+          "ambientLightColorG": 128,
+          "ambientLightColorR": 128,
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "name": "Lighting",
           "visibility": true,
           "cameras": [],
           "effects": []
