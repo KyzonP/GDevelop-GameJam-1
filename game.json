@@ -286,6 +286,240 @@
         "name": "HealthToken-5.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Barricade-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barricade-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Barricade-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barricade-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Barricade-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barricade-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Barricade-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barricade-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Barricade-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barricade-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Player/Walking90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Player\\Walking90.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Player/Walking90-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Player\\Walking90-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Player/Walking90-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Player\\Walking90-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Player/Walking90-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Player\\Walking90-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Player/Walking90-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Player\\Walking90-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Barricades/Basic/Barricade.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Barricades\\Basic\\Barricade.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Barricades/Basic/Barricade-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Barricades\\Basic\\Barricade-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Barricades/Basic/Barricade D1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Barricades\\Basic\\Barricade D1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Barricades/Basic/BarricadeD2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Barricades\\Basic\\BarricadeD2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Barricades/Basic/BarricadeD2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Barricades\\Basic\\BarricadeD2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Barricades/Basic/BarricadeD1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Barricades\\Basic\\BarricadeD1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -317,7 +551,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4999999999999938,
+        "zoomFactor": 0.3100000000000001,
         "windowMask": false
       },
       "objectsGroups": [
@@ -354,6 +588,16 @@
           "name": "IntersectionY",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "Time",
+          "type": "string",
+          "value": "250"
+        },
+        {
+          "name": "TimeDir",
+          "type": "string",
+          "value": "0"
         }
       ],
       "instances": [
@@ -368,7 +612,7 @@
           "width": 0,
           "x": 608,
           "y": 480,
-          "zOrder": 1,
+          "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1855,7 +2099,7 @@
           "persistentUuid": "fce70cd0-8d31-4966-ac63-42d8a5d7822a",
           "width": 0,
           "x": 64,
-          "y": 160,
+          "y": 128,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -2004,6 +2248,54 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 55,
+          "layer": "UI",
+          "locked": false,
+          "name": "TimeText",
+          "persistentUuid": "02f3d4ff-7575-4a41-a29a-247e1b8bf997",
+          "width": 96,
+          "x": 1824,
+          "y": 0,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "TimeText2",
+          "persistentUuid": "8f1323de-e684-4c61-960d-29447edf52f9",
+          "width": 0,
+          "x": 1622,
+          "y": 0,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SpawnPoint",
+          "persistentUuid": "165fb8d5-f6f4-400d-86a7-5f88d6563dd0",
+          "width": 0,
+          "x": 1024,
+          "y": 640,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2052,12 +2344,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Idle-1-0.png",
+                      "image": "Idle-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2073,28 +2365,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 33.400001525878906,
-                            "y": 3.5
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
                           },
                           {
-                            "x": 43.79999923706055,
-                            "y": 5.099999904632568
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
                           },
                           {
-                            "x": 48.20000076293945,
-                            "y": 14.100000381469727
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
                           },
                           {
-                            "x": 45,
-                            "y": 26.5
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
                           },
                           {
-                            "x": 62.79999923706055,
-                            "y": 37.29999923706055
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
                           },
                           {
-                            "x": 47.20000076293945,
-                            "y": 39.900001525878906
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
                           },
                           {
                             "x": 46.400001525878906,
@@ -2109,23 +2401,608 @@
                             "y": 37.29999923706055
                           },
                           {
-                            "x": 9,
-                            "y": 36.5
+                            "x": 29.048295974731445,
+                            "y": 37.34375
                           },
                           {
-                            "x": 26.799999237060547,
-                            "y": 26.100000381469727
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
                           },
                           {
-                            "x": 20.600000381469727,
-                            "y": 15.300000190734863
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
                           },
                           {
-                            "x": 23.799999237060547,
-                            "y": 5.300000190734863
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
                           }
                         ]
                       ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
+                          },
+                          {
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
+                          },
+                          {
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
+                          },
+                          {
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
+                          },
+                          {
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 29.048295974731445,
+                            "y": 37.34375
+                          },
+                          {
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
+                          },
+                          {
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
+                          },
+                          {
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
+                          },
+                          {
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
+                          },
+                          {
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 29.048295974731445,
+                            "y": 37.34375
+                          },
+                          {
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
+                          },
+                          {
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
+                          },
+                          {
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
+                          },
+                          {
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
+                          },
+                          {
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 29.048295974731445,
+                            "y": 37.34375
+                          },
+                          {
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
+                          },
+                          {
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
+                          },
+                          {
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
+                          },
+                          {
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
+                          },
+                          {
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 29.048295974731445,
+                            "y": 37.34375
+                          },
+                          {
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
+                          },
+                          {
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
+                          },
+                          {
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
+                          },
+                          {
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
+                          },
+                          {
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 29.048295974731445,
+                            "y": 37.34375
+                          },
+                          {
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
+                          },
+                          {
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
+                          },
+                          {
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
+                          },
+                          {
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
+                          },
+                          {
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 29.048295974731445,
+                            "y": 37.34375
+                          },
+                          {
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 39.04829406738281,
+                            "y": 38.4801139831543
+                          },
+                          {
+                            "x": 41.54829406738281,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 43.13920593261719,
+                            "y": 37.116477966308594
+                          },
+                          {
+                            "x": 45.18465805053711,
+                            "y": 39.161930084228516
+                          },
+                          {
+                            "x": 45.57291793823242,
+                            "y": 42.12053680419922
+                          },
+                          {
+                            "x": 48.43006134033203,
+                            "y": 41.168155670166016
+                          },
+                          {
+                            "x": 46.400001525878906,
+                            "y": 62.900001525878906
+                          },
+                          {
+                            "x": 22.200000762939453,
+                            "y": 63.099998474121094
+                          },
+                          {
+                            "x": 26.399999618530273,
+                            "y": 37.29999923706055
+                          },
+                          {
+                            "x": 29.048295974731445,
+                            "y": 37.34375
+                          },
+                          {
+                            "x": 30.866477966308594,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 34.275569915771484,
+                            "y": 37.79829406738281
+                          },
+                          {
+                            "x": 36.54829406738281,
+                            "y": 38.4801139831543
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking90",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Walking90\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":2,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAABACAYAAAD1Xam+AAAC6UlEQVR4Xu3a0VbCQAxFUfj/j67LiixUNIPSmZhsXx1o77nJsaLnky8EEGhL4Nw2ueAIIHAiAEOAQGMCBNC4fNERIAAzgEBjAgTQuHzRESAAM4BAYwIE0Lh80REgADOAQGMCBNC4fNERIAAzgEBjAgTQuHzRESAAM4BAYwIE0Lh80REgADOAQGMCBNC4fNERIAAzgEBjAgTQuHzRESAAM4BAYwIE0Lh80REgADOAQGMCBNC4fNERIAAzgEBjAgTQuHzRESAAM4BAYwIE0Lh80ZcS2C5XX7qDSy/+CX8KIEtHovfFu/W/bdt2Op/3FVy2h8sufGfWUwBJsoPdluEVe7f+b/Muk0BWASwDkkUAGX46TGaRYiEmZt7z7oP+9hSwZObTCWA1kIkD8NOlui3D9QmgUf9XAazMnFIAK4FkEkAzDikWYmL/H/Ku6jqtAFYBmTgA4RPA9blw4SPiRB4pFmJl3jt9H/6rQWoBrAAycQCGBdBEhl8EULz/b/PeDsbN5wOHyOBfCGAmkKwCKL4MHz4D+KmDoxdiUv9Dy//5Xo74k2EWAaQBMmkAossM8SiyDMPLP2MhomKe9P3f9rs/DD7pHva3eeqb/eHG0gD5Q4ZnvXSIRaFlGBbAHeFlmuFH+n//P4+R1xy6o4e++Ui6y5k0QB6456OODgmg0DLsAngAZpaZfeCW8x4FM183liFfJ2XviADKVisYAjEBAogZOYFAWQIEULZawRCICRBAzMgJBMoSIICy1QqGQEyAAGJGTiBQlgABlK1WMARiAgQQM3ICgbIECKBstYIhEBMggJiREwiUJUAAZasVDIGYAAHEjJxAoCwBAihbrWAIxAQIIGbkBAJlCRBA2WoFQyAmQAAxIycQKEuAAMpWKxgCMQECiBk5gUBZAgRQtlrBEIgJEEDMyAkEyhIggLLVCoZATIAAYkZOIFCWAAGUrVYwBGICBBAzcgKBsgQIoGy1giEQEyCAmJETCJQl8ALKTphBUhh3FQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAABACAYAAAD1Xam+AAAGMElEQVR4Xu1d4bnaMAzkLdAlO0En6QRdsgvQD14AJySxZOlcH773k6cES3c6yYqBr4v+FAFFYNoIfE3ruRxXBBSBiwRAJFAEJo6ABGBi8OW6IiABEAcUgYkj0FMAroY491yPYTmpJvK/Hk7hX49RqkWPgD+Jf70e58DX12opPdaVGsiTm8n/JTjCfzz+oxPt7vEZ8NvE+TAhkP/Cf2j+wwXAk/ylGHyIEFzlv2Xn894/Cf8+HTFSANzVb6+NLoiAXCtiOyD/ndVf+J8KIYT/kJu+tnxt6n+yLUCuN1sEmqu//F9HgLQIUOCPSqiU6rezJUCtNz35vbOP2gKWJJD/tUCN8X8a/qMI1aR+5b6v3DsT7gfl/8kTn6McFf6vdOzF/+EE4MevP5e/v3+uJqc3Yjxev1woji83C4D8F/49+T+sAJQt9IwCIP9fj4+FP64ADikAN/KXKjgbAeS/8O/Ff5QALAXM9xTgkeh7CXB77dO3AfL/u9IJ/3cBRPF/OAEoHe01CAENjt1zgMcQ7GgOUKwTiVtWOOS/cxD6P/BHEslNgBvzjibBD1YSPQ6T/84EEP79+T+cAJyVH7IDIU0CIP+PIyD8n+malrdpN9qBjeYwRFbPu7mP/E84CqzDYK8IILpfpAA0DwL3PkCDcB6U+OVt3V3AzU/5/z48Fv73VE3P1/Qb7nUC3k/EbU7+rYpAh6TNfosmEThYRA+85H9uBIbGvweh3AHYafsg6peL8+Hd5H/DMHAz9BX+gOrfK6gZCdBDqFB6IP/jAiD8QezsEVglgBKgmb6ke//QHKjn4BMtAKFJ+CeAv0xCmxJA/mMGX01gtF00PP/hAuAdAPZUvzZMXVep+1H34yJMb/4jBSCkfvcBxfc3BSPX2AyO4UL5HzwHIPzx/EclV5j85AIg/4PJL/z7FECYAERa/w94BBRq/eX/dwTIjv6mDf564j+0ABBXgRQBkP99qqBhO+c1ocEfIQAp7e9GBRHr9IJqtZf/Ce2/8F91QTD+I26cpn6kbaD8D0z+typLuA2gwn94ASBsg1MJIP/ptgFU+EsArI293Y6KAHa3zJbyP7EDQhcACYCZ12ZDJQBRAphRtRtS4S8BsANrtaQigNUph538JxJACgFAt0EOcltM0xNA/lPNAajwlwBYUtpnQ0UAn2sma/mf3AEgC4AEwMRpl5ESgCgBXMjajKnwlwDYQPVYURHA45jRVv4TCSBEAG5EyfgsQEk4ogMhqScBHzGQ/0+qIjhr1DaTGRX+qGCqChBVAROtfUbCnwR/CYCP2FZrJQBJAlgBddrR4M8oAPehqBOQ3uY0BAAFBuk/A/7LLtj347g1LBBfkIJKJMg+CPk4pBZ85/+fyGfOQhAEcPplNZ8d/7AAbH8gBjUDQglAOABHTCNKgvQYzOz7ZhiK5K1V5Gp2oS5o7xeiECKADGQoABUBmLINlADQfEtQuAPq9RNxSAFIr4DMVeAI0FoZKf9PJgAz4x8ufhUBSCuAcAFYWODh+dO2lwo2Lc520ZMIj/atdSZAmPx36CfGv1kEasUikwtoAQhVgU8SgMcAczIBmBl/tACkdAGUAsD0NKBM+JqynzUVmapva17SrCCJQBAPiN/Z22AJQBrPd2+0IoEEwBfss3hJAHJ+NGRoAThrmwkI8Nb+RgSAqOvZZnlzJSTHH+L3VB0AOwG2AzAJgK8DYMe/dd5jnRdlFMHhO4CjYGQ476ej64q3ChAVANIuIFQJPwl/F3uWX0Y6E5GMg0EUArBHgsEFYPfxV4YAEIpAWAAI8Q89/SiFosaZaB5QCUDZUkcd96qx036X9DUwre+RofzW90qwSxMAIvxTBWC7ldwKROTDcTQCsK0CMwsAWReQIgBk+KcJQG0eEM0DtACEToJtq8+jghJUwN39/5mSeyttFHjv+zXaT4t/NtZHs4AoD+ACEJmEVgQAvfZGzt8vgwwAM1u/iHOOa9Oqf1kJo6R3rL/VFOL3Xj4srzXnQvOFxsgcBqKo4s9bWSaeNxuGDmAvPhUVX11iiUVk72fEL2o2Lf4ArI+wCOVw6GIDO2pfibJ9/5r9mwga1jCKSc23llig8YvGDuHzqhGKLhB0PcJvCNb/AH73GYynwxfzAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAABACAYAAAD1Xam+AAADb0lEQVR4Xu2b0ZajIBQE4/9/tHPiGGMMikJsrnbtsxm41U1Jdna7B38gAAFbAp3t5AwOAQg8EAAlgIAxAQRgHD6jQwAB0AEIGBNAAMbhMzoEEAAdgIAxAQRgHD6jQwAB0AEIGBNAAMbhMzoEEAAdgIAxAQRgHD6jQwAB0AEIGBNAAMbhMzoEEAAdgIAxAQRgHD6jQwAB0AEIGBNAAMbhMzoEEAAdgIAxAQRgHD6jQwAB0AEIGBNAAMbhMzoEEAAdgIAxAQRgHD6jQwAB0AEIGBNAAMbhMzoE1ALoR+TqdUk6BgHyj5HDtAvpQez7vu+6YUnpuo2ZU/oxANP8G9dve3npQXwWYDj9RhKg9O8COua/OH6vl0GYl6BMAK/wZwIIA+EsRSdmlvE+a6bSn+uY/5JVxD7ICjkf/uYSGCw/Xnbe37WMbj0pSRjln3Tkcv7FGWj2MmwmgJtKgMO/ckXIHABZD0tvMLWfS80//5mtvhZLwG8NPw7+YiHZT22YG59Pjjqb8erzFaEzyn+VT04Arf5uTFLIA8M3uwoVNfv7Q6uj3kx0h3AZ5b/7+r8GUN2TMAKYrgD/35U/bkeH2tb24WzXHW8DWSizzBYH4OovhOf+j4w/kVD15HQBFE0/YlDbsNIdye//O01/h6JXv/2+zP/5Mji9q5X5r338UC8yDH7ek9Oh1gjg4xrwLsPpey4sQnHQFxPdITxG+W9xKe7Gyhn4mQgUh+knwy++Iij2fajo48PVs6qufiXDFX6mmkniEETN/3QJLM5BtQiUIOf/CmqYY/m78j0Fa/Xrkj17m0ugdL6LiO4AjulRl/xzbEIJUSmAFJivUuToXez/ERSHfQHR7Ygq+8jd88/eCOYPtHghthZAtiE3ecC56DeJUDKGvCcIQJIri0AgJgEEEDMXdgUBCQEEIMHMIhCISQABxMyFXUFAQgABSDCzCARiEkAAMXNhVxCQEEAAEswsAoGYBBBAzFzYFQQkBBCABDOLQCAmAQQQMxd2BQEJAQQgwcwiEIhJAAHEzIVdQUBCAAFIMLMIBGISQAAxc2FXEJAQQAASzCwCgZgEEEDMXNgVBCQEEIAEM4tAICYBBBAzF3YFAQkBBCDBzCIQiEkAAcTMhV1BQEIAAUgwswgEYhJAADFzYVcQkBBAABLMLAKBmAT+AMA5xEGULGg8AAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[null]}}\",\"paths\":[\"C:\\\\Users\\\\Jason\\\\Documents\\\\GDevelop\\\\GDevelop-GameJam-1\\\\Assets\\\\Player\\\\Walking90-1.png\",\"C:\\\\Users\\\\Jason\\\\Documents\\\\GDevelop\\\\GDevelop-GameJam-1\\\\Assets\\\\Player\\\\Walking90-2.png\",\"C:\\\\Users\\\\Jason\\\\Documents\\\\GDevelop\\\\GDevelop-GameJam-1\\\\Assets\\\\Player\\\\Walking90-3.png\",\"C:\\\\Users\\\\Jason\\\\Documents\\\\GDevelop\\\\GDevelop-GameJam-1\\\\Assets\\\\Player\\\\Walking90-4.png\"],\"name\":\"Walking90\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Player\\Walking90-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Player\\Walking90-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Player\\Walking90-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Player\\Walking90-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -2166,6 +3043,8 @@
               "type": "Lighting::LightObstacleBehavior"
             },
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 200,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -2176,9 +3055,7 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 250,
-              "name": "Pathfinding",
-              "rotateObject": false,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "rotateObject": false
             }
           ],
           "animations": [
@@ -2316,20 +3193,6 @@
           ]
         },
         {
-          "name": "Light",
-          "tags": "",
-          "type": "Lighting::LightObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "radius": 500,
-            "color": "255;255;255",
-            "debugMode": false,
-            "texture": ""
-          }
-        },
-        {
           "height": 32,
           "name": "Wall",
           "tags": "",
@@ -2344,10 +3207,10 @@
               "type": "Lighting::LightObstacleBehavior"
             },
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ]
         },
@@ -2413,10 +3276,10 @@
               "type": "Lighting::LightObstacleBehavior"
             },
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2426,11 +3289,89 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Barricade\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAByElEQVRYR92WwU7DMAyGXbZ2BY5ckODEjSMS7/8EIE6IAxInQEgTR2Bruxb9bZx6abrUW6chclmaufHn347TiA48ogP7JwtwdZZU28C8fGY7BdEBOE2IiuqoYYnMb1V2npd5szYxJhr453kLvQYwS6a0zAqyED0AbPOVrQOcJP0035kJgog2AiASC0HTJjChgASEClCAHbMTCeKu4TkIAIfYvFYCEAbArpkUuQCcBhmtq8pggFoJA4E55PYBSQVGB0ARQnIM61ykZK8p0CjAkY9WhNoa0BxB2AaLUHMKjuPhfejxY9kx3rkPACCdEi2aUqnnPOQa5kEAW2yKTsgArlMfzCAAbT5HU0A6vr2M1RfTTxG+FDYq4ANI4/CmC3MpVWXb6/tUvH9f9Rfh9fmsSifNq5OoJDjH5n0Q7JjtGCA2ezBEvmpx1AB4VTqyheaAwQYAcM4Oec5AWN8I4KbAjZzV8KkiAWTkUo2dAVgNX0r+jAKA3LoG+lKgqYFQD1HXgOYU3L3m9RG7uZjVPeThrdv3fYDem4QbkaYP7AUgJKn8nwHQT7D+5Ln5BisgDbWS/j8AbUSatME2+DlzcABtRFr7oALaDbX2v5GWsjDk7r6lAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA7ElEQVRYR+2WPQoCMRCFE7SxEryErRex8KQWXsTWSwhWNsrKFAPDkp83L4EgZJs0G943783sbAyDnzhYP/w/wOV0WK73J10IfVGiE/HP+xW2u31gIWgAFb89vvF83CwsBAWwFm+BcAPkxFkIF0BNnIGAAURcGk+aTTJXsdyJ9gQEYCvXsesFUQVI2Y5AdHGglHkJAhWXSLMOIA2XgvCIZwEQce0BC+EVb3bAQuiEeLdrsQlRJ5jKFZSaAjuCLeLFCKyVPb/964iqDuiFXtuPBui1/5sAFIL9+UhNCByBd7zQ9yfAdGA6MB0Y7sAPEDpsMINDnVAAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Jason\\\\Documents\\\\GDevelop\\\\GDevelop-GameJam-1\\\\Assets\\\\Barricades\\\\Basic\\\\Barricade-1.png\"],\"name\":\"Barricade\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Barricades\\Basic\\Barricade.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.5714285373687744,
+                            "y": 1.9285714626312256
+                          },
+                          {
+                            "x": 31,
+                            "y": 2.0714285373687744
+                          },
+                          {
+                            "x": 28.571428298950195,
+                            "y": 27.214284896850586
+                          },
+                          {
+                            "x": 2,
+                            "y": 30.64285659790039
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BarricadeD1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
                   "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Barricade-1-0.png",
+                      "image": "Assets\\Barricades\\Basic\\BarricadeD1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BarricadeD2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Barricades\\Basic\\BarricadeD2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2750,6 +3691,122 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Light",
+          "tags": "",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 100,
+            "color": "255;255;255",
+            "debugMode": true,
+            "texture": ""
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TimeText2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TimeText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "SpawnPoint",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 8,
+          "name": "ZambamboHealthBack",
+          "tags": "",
+          "texture": "NewFile-1-3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 8,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "height": 8,
+          "name": "ZambamboHealth",
+          "tags": "",
+          "texture": "NewFile-1-2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 8,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -2780,9 +3837,43 @@
                 "\"BuildTimer\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnTimer\""
+              ],
+              "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Barricade",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "*",
+                    "1.5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -2790,7 +3881,78 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
+          "name": "Spawns",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SpawnTimer\"",
+                    ">",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Zambambo",
+                    "SpawnPoint.X()",
+                    "SpawnPoint.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SpawnTimer\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2943,6 +4105,41 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Walking Animations",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Walking\" + ToString(round(Player.Angle()/90)*90)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Detecting player hits. If its hp goes to 0, delete the player",
               "comment2": ""
             },
@@ -3020,6 +4217,93 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Prevent player from moving through walls",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Wall",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Wall",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Barricade",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Barricade",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -3030,8 +4314,8 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
-          "name": "Bullets",
+          "folded": false,
+          "name": "Guns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -3077,7 +4361,7 @@
                     "Player",
                     "FireBullet",
                     "Player.X()",
-                    "Player.Y()",
+                    "Player.Y()+20",
                     "Bullet",
                     "MouseX()",
                     "MouseY()",
@@ -3240,7 +4524,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Barricades",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3312,9 +4596,21 @@
                   "parameters": [
                     "",
                     "Barricade",
-                    "32*(round(MouseX()/32))",
-                    "32*(round(MouseY()/32))",
-                    ""
+                    "32*(round((MouseX()-16)/32))",
+                    "32*(round((MouseY()-16)/32))",
+                    "\"Base Layer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "*",
+                    "1.5"
                   ],
                   "subInstructions": []
                 },
@@ -3392,7 +4688,21 @@
                 }
               ],
               "events": []
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Zambambo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "disabled": false,
               "folded": false,
@@ -3405,95 +4715,31 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Prevent player from moving through walls",
+              "comment": "Change speed depending on time of day (Fast at night)",
               "comment2": ""
             },
             {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Wall",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SeparateFromObjects"
+                    "value": "PathfindingBehavior::MaxSpeed"
                   },
                   "parameters": [
-                    "Player",
-                    "Wall",
-                    ""
+                    "Zambambo",
+                    "Pathfinding",
+                    "=",
+                    "(255-Variable(Time))"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
             },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Barricade",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Barricade",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Zambambo",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
             {
               "disabled": false,
               "folded": false,
@@ -3586,32 +4832,6 @@
                   "events": []
                 }
               ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Raycast"
-                  },
-                  "parameters": [
-                    "Solid",
-                    "Zambambo.CenterX()",
-                    "Zambambo.CenterY()",
-                    "Zambambo.AngleToObject(Zambambo)",
-                    "600",
-                    "IntersectionX",
-                    "IntersectionY",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": []
             },
             {
               "disabled": false,
@@ -4034,6 +5254,216 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Time",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Connect the color in the lighting layer to the current value of the scene value Time. This value flips between 1 and 244 in the code below, depending on the current 'direction'",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetLayerAmbientLightColor"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lighting\"",
+                    "VariableString(Time) + \";\" + VariableString(Time) + \";\" + VariableString(Time)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TimeText",
+                    "=",
+                    "VariableString(Time)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TimeText2",
+                    "=",
+                    "VariableString(TimeDir)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TimeDir",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Time",
+                    "+",
+                    "TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Time",
+                    ">",
+                    "254"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeDir",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TimeDir",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Time",
+                    "-",
+                    "TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Time",
+                    "<",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeDir",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -4082,9 +5512,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
           "followBaseLayerCamera": true,
           "isLightingLayer": true,
           "name": "Lighting",
