@@ -551,7 +551,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3100000000000001,
+        "zoomFactor": 0.3500000000000001,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2314,6 +2314,11 @@
               "name": "Build",
               "type": "string",
               "value": "50"
+            },
+            {
+              "name": "Weapon",
+              "type": "string",
+              "value": "Pistol"
             }
           ],
           "effects": [],
@@ -3138,7 +3143,13 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Damage",
+              "type": "string",
+              "value": "10"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -3255,11 +3266,161 @@
           ]
         },
         {
+          "name": "BarricadeShort",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Damage",
+              "type": "string",
+              "value": "0"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 50,
+              "DamageCooldown": 1,
+              "MaxHealth": 50,
+              "IsJustDamaged": false,
+              "CooldownActive": false
+            },
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            },
+            {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "Barricade",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Barricade\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAByElEQVRYR92WwU7DMAyGXbZ2BY5ckODEjSMS7/8EIE6IAxInQEgTR2Bruxb9bZx6abrUW6chclmaufHn347TiA48ogP7JwtwdZZU28C8fGY7BdEBOE2IiuqoYYnMb1V2npd5szYxJhr453kLvQYwS6a0zAqyED0AbPOVrQOcJP0035kJgog2AiASC0HTJjChgASEClCAHbMTCeKu4TkIAIfYvFYCEAbArpkUuQCcBhmtq8pggFoJA4E55PYBSQVGB0ARQnIM61ykZK8p0CjAkY9WhNoa0BxB2AaLUHMKjuPhfejxY9kx3rkPACCdEi2aUqnnPOQa5kEAW2yKTsgArlMfzCAAbT5HU0A6vr2M1RfTTxG+FDYq4ANI4/CmC3MpVWXb6/tUvH9f9Rfh9fmsSifNq5OoJDjH5n0Q7JjtGCA2ezBEvmpx1AB4VTqyheaAwQYAcM4Oec5AWN8I4KbAjZzV8KkiAWTkUo2dAVgNX0r+jAKA3LoG+lKgqYFQD1HXgOYU3L3m9RG7uZjVPeThrdv3fYDem4QbkaYP7AUgJKn8nwHQT7D+5Ln5BisgDbWS/j8AbUSatME2+DlzcABtRFr7oALaDbX2v5GWsjDk7r6lAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA7ElEQVRYR+2WPQoCMRCFE7SxEryErRex8KQWXsTWSwhWNsrKFAPDkp83L4EgZJs0G943783sbAyDnzhYP/w/wOV0WK73J10IfVGiE/HP+xW2u31gIWgAFb89vvF83CwsBAWwFm+BcAPkxFkIF0BNnIGAAURcGk+aTTJXsdyJ9gQEYCvXsesFUQVI2Y5AdHGglHkJAhWXSLMOIA2XgvCIZwEQce0BC+EVb3bAQuiEeLdrsQlRJ5jKFZSaAjuCLeLFCKyVPb/964iqDuiFXtuPBui1/5sAFIL9+UhNCByBd7zQ9yfAdGA6MB0Y7sAPEDpsMINDnVAAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Jason\\\\Documents\\\\GDevelop\\\\GDevelop-GameJam-1\\\\Assets\\\\Barricades\\\\Basic\\\\Barricade-1.png\"],\"name\":\"Barricade\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Barricade-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.5714285373687744,
+                            "y": 1.9285714626312256
+                          },
+                          {
+                            "x": 31,
+                            "y": 2.0714285373687744
+                          },
+                          {
+                            "x": 28.571428298950195,
+                            "y": 27.214284896850586
+                          },
+                          {
+                            "x": 2,
+                            "y": 30.64285659790039
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BarricadeD1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Barricades\\Basic\\BarricadeD1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BarricadeD2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Barricades\\Basic\\BarricadeD2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Barricade",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Damage",
+              "type": "string",
+              "value": "0"
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -4314,11 +4475,196 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Guns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Weapon Switching",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Weapon",
+                    "=",
+                    "\"Pistol\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Weapon",
+                    "=",
+                    "\"Shotgun\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Weapon",
+                    "=",
+                    "\"Sniper\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Weapon",
+                    "=",
+                    "\"Assault\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Weapon",
+                    "=",
+                    "\"Grenade\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -4336,7 +4682,7 @@
             },
             {
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4351,27 +4697,248 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "Player",
-                    "FireBullet",
-                    "Player.X()",
-                    "Player.Y()+20",
-                    "Bullet",
-                    "MouseX()",
-                    "MouseY()",
-                    "500",
-                    ""
+                  "comment": "Firing Mechanics",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Weapon",
+                        "=",
+                        "\"Pistol\""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::Fire"
+                      },
+                      "parameters": [
+                        "Player",
+                        "FireBullet",
+                        "Player.X()",
+                        "Player.Y()",
+                        "Bullet",
+                        "AngleBetweenPositions(Player.X(), Player.Y()+20, MouseX(), MouseY())",
+                        "500",
+                        "500"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Damage",
+                        "=",
+                        "10"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Weapon",
+                        "=",
+                        "\"Shotgun\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "3",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "FireBullet::FireBullet::Fire"
+                          },
+                          "parameters": [
+                            "Player",
+                            "FireBullet",
+                            "Player.X()",
+                            "Player.Y()",
+                            "Bullet",
+                            "AngleBetweenPositions(Player.X(), Player.Y()+20, MouseX(), MouseY())+RandomFloatInRange(-20,20)",
+                            "750",
+                            "750"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Bullet",
+                            "Damage",
+                            "=",
+                            "20"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Weapon",
+                        "=",
+                        "\"Sniper\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::Fire"
+                      },
+                      "parameters": [
+                        "Player",
+                        "FireBullet",
+                        "Player.X()",
+                        "Player.Y()",
+                        "Bullet",
+                        "AngleBetweenPositions(Player.X(), Player.Y()+20, MouseX(), MouseY())",
+                        "2500",
+                        "2500"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Damage",
+                        "=",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Weapon",
+                        "=",
+                        "\"Assault\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FireBullet::FireBullet::Fire"
+                      },
+                      "parameters": [
+                        "Player",
+                        "FireBullet",
+                        "Player.X()",
+                        "Player.Y()",
+                        "Bullet",
+                        "AngleBetweenPositions(Player.X(), Player.Y()+20, MouseX(), MouseY())",
+                        "1250",
+                        "500"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
-              ],
-              "events": []
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bullet Collisions",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -4402,7 +4969,7 @@
                   "parameters": [
                     "Barricade",
                     "Health",
-                    "10",
+                    "Bullet.Variable(Damage)",
                     ""
                   ],
                   "subInstructions": []
@@ -4414,17 +4981,6 @@
                   },
                   "parameters": [
                     "Bullet",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Barricade",
                     ""
                   ],
                   "subInstructions": []
@@ -4496,7 +5052,7 @@
                   "parameters": [
                     "Zambambo",
                     "Health",
-                    "10",
+                    "Bullet.Variable(Damage)",
                     ""
                   ],
                   "subInstructions": []
@@ -4541,7 +5097,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Placeable barriers",
+              "comment": "Placeable barriers - can place if the player has enough Build, there has been 1 second since the last build",
               "comment2": ""
             },
             {
@@ -4582,7 +5138,7 @@
                     "Player",
                     "\"BuildTimer\"",
                     ">",
-                    "1"
+                    "0.5"
                   ],
                   "subInstructions": []
                 }
@@ -4599,18 +5155,6 @@
                     "32*(round((MouseX()-16)/32))",
                     "32*(round((MouseY()-16)/32))",
                     "\"Base Layer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "Barricade",
-                    "*",
-                    "1.5"
                   ],
                   "subInstructions": []
                 },
@@ -4683,6 +5227,67 @@
                   "parameters": [
                     "Barricade",
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Changing the sprite of the barricade as it gets more and more damaged",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::IsJustDamaged"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "Health",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "Damage",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "\"BarricadeD\" + Barricade.VariableString(Damage)"
                   ],
                   "subInstructions": []
                 }
