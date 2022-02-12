@@ -520,6 +520,15 @@
         "name": "Assets\\Barricades\\Basic\\BarricadeD1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Alert-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alert-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -551,7 +560,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3500000000000001,
+        "zoomFactor": 0.8700000000000006,
         "windowMask": false
       },
       "objectsGroups": [
@@ -574,6 +583,35 @@
           "objects": [
             {
               "name": "Wall"
+            }
+          ]
+        },
+        {
+          "name": "PlayerStop",
+          "objects": [
+            {
+              "name": "Wall"
+            },
+            {
+              "name": "BarricadeShort"
+            },
+            {
+              "name": "Barricade"
+            }
+          ]
+        },
+        {
+          "name": "Breakable",
+          "objects": []
+        },
+        {
+          "name": "Hurtable",
+          "objects": [
+            {
+              "name": "Player"
+            },
+            {
+              "name": "Zambambo"
             }
           ]
         }
@@ -1051,38 +1089,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "cd4b6f20-52ef-4175-9852-d1704e9a9bda",
-          "width": 0,
-          "x": 1120,
-          "y": 544,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "b6a98836-5b3f-4d95-b2d6-37e4ab8e445d",
-          "width": 0,
-          "x": 1120,
-          "y": 512,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 32,
           "layer": "",
@@ -1535,38 +1541,6 @@
           "height": 32,
           "layer": "",
           "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "0edb1a9c-5163-42b7-816b-09094e925c72",
-          "width": 32,
-          "x": 1504,
-          "y": 512,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "bcf0aad7-639b-4644-b7ad-71a5de1a0a44",
-          "width": 0,
-          "x": 1504,
-          "y": 544,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
           "name": "Wall",
           "persistentUuid": "cbd0e43a-f7d4-493a-bb2c-6a746c752766",
           "width": 32,
@@ -1932,22 +1906,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
-          "layer": "",
-          "locked": false,
-          "name": "Hidden",
-          "persistentUuid": "f9da3b99-e2a5-4e07-8a6f-3aa95c5e6b7c",
-          "width": 224,
-          "x": 512,
-          "y": 128,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 64,
           "layer": "",
           "locked": false,
@@ -1957,22 +1915,6 @@
           "x": 224,
           "y": 256,
           "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "locked": false,
-          "name": "Hidden",
-          "persistentUuid": "173636a0-ee8c-4e19-96e6-cb1876d807cc",
-          "width": 352,
-          "x": 768,
-          "y": 128,
-          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2293,6 +2235,150 @@
           "x": 1024,
           "y": 640,
           "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeShort",
+          "persistentUuid": "11059cad-43cb-4814-b30c-a10bb7637ab6",
+          "width": 0,
+          "x": 384,
+          "y": 608,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeSpikes",
+          "persistentUuid": "64aaab02-408d-41ec-9fad-0ff6550881ec",
+          "width": 0,
+          "x": 928,
+          "y": 640,
+          "zOrder": 1004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeSpikes",
+          "persistentUuid": "ba3c4550-3998-45ec-b991-8374c451d482",
+          "width": 0,
+          "x": 992,
+          "y": 576,
+          "zOrder": 1005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeShort",
+          "persistentUuid": "c21d926b-c1a8-447f-9422-d578d4c1a560",
+          "width": 0,
+          "x": 416,
+          "y": 608,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeShort",
+          "persistentUuid": "23954304-eb05-4368-92a9-df30456d9b5a",
+          "width": 0,
+          "x": 448,
+          "y": 608,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeShort",
+          "persistentUuid": "ff24fd83-c657-4c5b-a919-86ba3ab7fd3f",
+          "width": 0,
+          "x": 480,
+          "y": 608,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeShort",
+          "persistentUuid": "6939d3ce-f423-4e98-9cb9-4eca7f7b76de",
+          "width": 0,
+          "x": 512,
+          "y": 608,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeShort",
+          "persistentUuid": "84936ee1-099b-4555-9fbe-6315022772a2",
+          "width": 0,
+          "x": 544,
+          "y": 608,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BarricadeShort",
+          "persistentUuid": "9f0444ae-0a01-4c9f-ab39-57b8f82baa53",
+          "width": 0,
+          "x": 576,
+          "y": 608,
+          "zOrder": 1003,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3038,7 +3124,7 @@
               "name": "Health",
               "type": "Health::Health",
               "Health": 25,
-              "DamageCooldown": 0,
+              "DamageCooldown": 1,
               "MaxHealth": 25,
               "IsJustDamaged": false,
               "CooldownActive": false
@@ -3226,13 +3312,23 @@
           ]
         },
         {
-          "name": "Alert",
+          "name": "BarricadeSpikes",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 50,
+              "DamageCooldown": 1,
+              "MaxHealth": 50,
+              "IsJustDamaged": false,
+              "CooldownActive": false
+            }
+          ],
           "animations": [
             {
               "name": "Alert",
@@ -3244,7 +3340,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Alert-1.png",
+                      "image": "Alert-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3282,21 +3378,17 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 50,
+              "Health": 25,
               "DamageCooldown": 1,
-              "MaxHealth": 50,
+              "MaxHealth": 25,
               "IsJustDamaged": false,
               "CooldownActive": false
             },
             {
-              "name": "LightObstacleBehavior",
-              "type": "Lighting::LightObstacleBehavior"
-            },
-            {
+              "impassable": false,
               "name": "PathfindingObstacle",
               "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-              "cost": 2,
-              "impassable": true
+              "cost": 2
             }
           ],
           "animations": [
@@ -3437,10 +3529,10 @@
               "type": "Lighting::LightObstacleBehavior"
             },
             {
+              "impassable": false,
               "name": "PathfindingObstacle",
               "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-              "cost": 2,
-              "impassable": true
+              "cost": 2
             }
           ],
           "animations": [
@@ -4042,7 +4134,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Spawns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4093,16 +4185,7 @@
                   "subInstructions": []
                 }
               ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                }
-              ]
+              "events": []
             }
           ],
           "parameters": []
@@ -4113,7 +4196,451 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
+          "name": "Zambambo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Change speed depending on time of day (Fast at night)",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PathfindingBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Pathfinding",
+                    "=",
+                    "(255-Variable(Time))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zambambo Detection of Player via Raycasting",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Zambambo",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Raycast"
+                  },
+                  "parameters": [
+                    "Solid",
+                    "Zambambo.CenterX()",
+                    "Zambambo.CenterY()",
+                    "Zambambo.AngleToObject(Player)",
+                    "600",
+                    "IntersectionX",
+                    "IntersectionY",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "If there is a clear path between the zambambo and the player, the zambambo becomes alert",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Zambambo",
+                        "Alert",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zambambo pathfinding. While alert, they will follow the player but will stop if in collision with a barricade",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Alert",
+                    "=",
+                    "1\n"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Pathfinding",
+                    "",
+                    "Player.X() + Random(60)",
+                    "Player.Y() + Random(60)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Barricade",
+                    "",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Pathfinding",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "Health",
+                    "Zambambo.Variable(Damage)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "BarricadeShort",
+                    "",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Pathfinding",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "BarricadeShort",
+                    "Health",
+                    "Zambambo.Variable(Damage)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Barricade",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "BarricadeShort",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Pathfinding",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zambambo attacking. While colliding with the player, damage them",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "Zambambo.Variable(Damage)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Detecting Zambambo bullet hits. If hp goes to 0, delete the zambambo\n",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Health",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4459,6 +4986,42 @@
                   "parameters": [
                     "Player",
                     "Barricade",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "BarricadeShort",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "BarricadeShort",
                     ""
                   ],
                   "subInstructions": []
@@ -5236,6 +5799,39 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "BarricadeShort",
+                    "Health",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BarricadeShort",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -5293,165 +5889,6 @@
                 }
               ],
               "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Zambambo",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Change speed depending on time of day (Fast at night)",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PathfindingBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Zambambo",
-                    "Pathfinding",
-                    "=",
-                    "(255-Variable(Time))"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Zambambo Detection of Player via Raycasting",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Zambambo",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Raycast"
-                  },
-                  "parameters": [
-                    "Solid",
-                    "Zambambo.CenterX()",
-                    "Zambambo.CenterY()",
-                    "Zambambo.AngleToObject(Player)",
-                    "600",
-                    "IntersectionX",
-                    "IntersectionY",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "If there is a clear path between the zambambo and the player, the zambambo becomes alert",
-                  "comment2": ""
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "NbObjet"
-                      },
-                      "parameters": [
-                        "Player",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Zambambo",
-                        "Alert",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Zambambo pathfinding. While alert, they will follow the player but will stop if in collision with a barricade",
-              "comment2": ""
             },
             {
               "disabled": false,
@@ -5461,99 +5898,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "Health::Health::IsJustDamaged"
                   },
                   "parameters": [
-                    "Zambambo",
-                    "Alert",
-                    "=",
-                    "1\n"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "Zambambo",
-                    "Pathfinding",
-                    "",
-                    "Player.X() + Random(60)",
-                    "Player.Y() + Random(60)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Zambambo",
-                    "Barricade",
-                    "",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Zambambo",
-                    "Pathfinding",
-                    "no"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "Barricade",
+                    "BarricadeShort",
                     "Health",
-                    "Zambambo.Variable(Damage)",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Zambambo",
-                    "Barricade",
-                    "",
-                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -5563,12 +5912,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ActivateBehavior"
+                    "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Zambambo",
-                    "Pathfinding",
-                    "yes"
+                    "BarricadeShort",
+                    "Damage",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "BarricadeShort",
+                    "\"BarricadeD\" + Barricade.VariableString(Damage)"
                   ],
                   "subInstructions": []
                 }
@@ -5587,7 +5948,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Zambambo attacking. While colliding with the player, damage them",
+              "comment": "Spiked Barricade Traps - damagin anyone that steps onto them for the first time",
               "comment2": ""
             },
             {
@@ -5601,8 +5962,8 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Zambambo",
-                    "Player",
+                    "Hurtable",
+                    "BarricadeSpikes",
                     "",
                     "",
                     ""
@@ -5617,57 +5978,9 @@
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
-                    "Player",
+                    "Hurtable",
                     "Health",
-                    "Zambambo.Variable(Damage)",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Detecting Zambambo bullet hits. If hp goes to 0, delete the zambambo\n",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Health::Health::IsDead"
-                  },
-                  "parameters": [
-                    "Zambambo",
-                    "Health",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Zambambo",
+                    "5",
                     ""
                   ],
                   "subInstructions": []
@@ -5866,7 +6179,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Time",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
