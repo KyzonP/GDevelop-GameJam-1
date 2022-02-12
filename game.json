@@ -317,7 +317,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.759999999999994,
+        "zoomFactor": 0.4999999999999938,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2175,7 +2175,7 @@
               "extraBorder": 0,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
-              "maxSpeed": 100,
+              "maxSpeed": 250,
               "name": "Pathfinding",
               "rotateObject": false,
               "type": "PathfindingBehavior::PathfindingBehavior"
