@@ -1009,6 +1009,16 @@
           "name": "Damage",
           "type": "string",
           "value": "10"
+        },
+        {
+          "name": "MaxHP",
+          "type": "string",
+          "value": "25"
+        },
+        {
+          "name": "HP",
+          "type": "string",
+          "value": "25"
         }
       ],
       "effects": [],
@@ -2054,7 +2064,33 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Build",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Pistol",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Shotgun",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Rifle",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Assault",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -2764,7 +2800,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8700000000000002,
+        "zoomFactor": 0.3099999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2800,8 +2836,8 @@
           "name": "Player",
           "persistentUuid": "e6e48a27-7fbe-469e-97b8-479fb0a02f62",
           "width": 0,
-          "x": 608,
-          "y": 480,
+          "x": 64,
+          "y": -32,
           "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
@@ -2963,38 +2999,6 @@
           "x": 256,
           "y": 224,
           "zOrder": 224,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "bcadd429-bebc-45ab-8749-8112386ae716",
-          "width": 0,
-          "x": 64,
-          "y": 96,
-          "zOrder": 96,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "12a36950-add3-44fb-be55-6e2382dc981f",
-          "width": 0,
-          "x": 96,
-          "y": 96,
-          "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3273,38 +3277,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "ea3e169e-55f4-4f83-bd8d-fb8177e69dbe",
-          "width": 0,
-          "x": 640,
-          "y": 736,
-          "zOrder": 736,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "3cffd74d-79b2-42db-b025-4d3e6c508e49",
-          "width": 0,
-          "x": 608,
-          "y": 736,
-          "zOrder": 736,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 64,
           "layer": "",
@@ -3379,38 +3351,6 @@
           "x": 1280,
           "y": 160,
           "zOrder": 160,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "8527d02a-a2b9-49f1-b65b-186bbc227831",
-          "width": 0,
-          "x": 1440,
-          "y": 416,
-          "zOrder": 416,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Barricade",
-          "persistentUuid": "1805d2a5-5f14-49d4-9084-ee5e0e60b036",
-          "width": 0,
-          "x": 1440,
-          "y": 384,
-          "zOrder": 384,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4428,7 +4368,7 @@
       "events": [
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4881,6 +4821,96 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TEMP - FOR BUILD TOKENS",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "BuildToken",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "BuildToken",
+                    "Build",
+                    "=",
+                    "RandomInRange(2,4)*5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "BuildToken",
+                    "Pistol",
+                    "=",
+                    "RandomInRange(2,4)*5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "BuildToken",
+                    "Shotgun",
+                    "=",
+                    "RandomInRange(2,4)*5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "BuildToken",
+                    "Rifle",
+                    "=",
+                    "RandomInRange(2,4)*5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "BuildToken",
+                    "Assault",
+                    "=",
+                    "RandomInRange(2,4)*5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -4890,7 +4920,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4927,7 +4957,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "UI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4991,20 +5021,30 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BarricadeGhosts",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BarricadeGhosts",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5050,20 +5090,30 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BarricadeGhosts",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BarricadeGhosts",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5109,20 +5159,30 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BarricadeGhosts",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BarricadeGhosts",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5168,20 +5228,30 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BarricadeGhosts",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BarricadeGhosts",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5227,20 +5297,30 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BarricadeGhosts",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BarricadeGhosts",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5709,7 +5789,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Spawns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5834,7 +5914,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Zambambo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7848,7 +7928,69 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "ZambamboHealth",
+                        "Zambambo",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "ZambamboHealthBack",
+                        "Zambambo",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TiledSpriteObject::Width"
+                      },
+                      "parameters": [
+                        "ZambamboHealth",
+                        "=",
+                        "((Zambambo.Variable(HP)-Bullet.Variable(Damage))/Zambambo.Variable(MaxHP))*ZambamboHealthBack.Width()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Zambambo",
+                        "HP",
+                        "-",
+                        "Bullet.Variable(Damage)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -8488,11 +8630,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Delete"
+                    "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "BuildToken",
-                    ""
+                    "Player",
+                    "Build",
+                    "+",
+                    "BuildToken.Variable(Build)"
                   ],
                   "subInstructions": []
                 },
@@ -8502,10 +8646,60 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Player",
-                    "Build",
+                    "Pistol",
+                    "Ammo",
                     "+",
-                    "15"
+                    "BuildToken.Variable(Pistol)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Shotgun",
+                    "Ammo",
+                    "+",
+                    "BuildToken.Variable(Shotgun)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Rifle",
+                    "Ammo",
+                    "+",
+                    "BuildToken.Variable(Rifle)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Assault",
+                    "Ammo",
+                    "+",
+                    "BuildToken.Variable(Assault)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BuildToken",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -8902,7 +9096,7 @@
         {
           "name": "Time",
           "type": "string",
-          "value": "200"
+          "value": "250"
         },
         {
           "name": "TimeDir",
