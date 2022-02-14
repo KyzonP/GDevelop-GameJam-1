@@ -1127,6 +1127,11 @@
           "name": "Damage",
           "type": "string",
           "value": "10"
+        },
+        {
+          "name": "Hit",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -2403,6 +2408,11 @@
           "name": "Ammo",
           "type": "string",
           "value": "50"
+        },
+        {
+          "name": "Sound",
+          "type": "string",
+          "value": "512"
         }
       ],
       "effects": [],
@@ -2434,6 +2444,11 @@
           "name": "Ammo",
           "type": "string",
           "value": "50"
+        },
+        {
+          "name": "Sound",
+          "type": "string",
+          "value": "1024"
         }
       ],
       "effects": [],
@@ -2465,6 +2480,11 @@
           "name": "Ammo",
           "type": "string",
           "value": "50"
+        },
+        {
+          "name": "Sound",
+          "type": "string",
+          "value": "256"
         }
       ],
       "effects": [],
@@ -2496,6 +2516,11 @@
           "name": "Ammo",
           "type": "string",
           "value": "50"
+        },
+        {
+          "name": "Sound",
+          "type": "string",
+          "value": "768"
         }
       ],
       "effects": [],
@@ -2596,6 +2621,28 @@
       "effects": [],
       "behaviors": [],
       "animations": []
+    },
+    {
+      "height": 8,
+      "name": "ZambamboHealthBack",
+      "tags": "",
+      "texture": "NewFile-1-3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 8,
+      "name": "ZambamboHealth",
+      "tags": "",
+      "texture": "NewFile-1-2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [
@@ -2673,6 +2720,23 @@
           "name": "BarricadeSpikesGhost"
         }
       ]
+    },
+    {
+      "name": "Weapons",
+      "objects": [
+        {
+          "name": "Assault"
+        },
+        {
+          "name": "Rifle"
+        },
+        {
+          "name": "Shotgun"
+        },
+        {
+          "name": "Pistol"
+        }
+      ]
     }
   ],
   "variables": [],
@@ -2700,7 +2764,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4299999999999998,
+        "zoomFactor": 0.8700000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4360,34 +4424,11 @@
           "initialVariables": []
         }
       ],
-      "objects": [
-        {
-          "height": 8,
-          "name": "ZambamboHealthBack",
-          "tags": "",
-          "texture": "NewFile-1-3.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 8,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "height": 8,
-          "name": "ZambamboHealth",
-          "tags": "",
-          "texture": "NewFile-1-2.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 8,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        }
-      ],
+      "objects": [],
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4741,6 +4782,105 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Setting Z Index for already placed objects",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Wall",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Wall",
+                    "=",
+                    "Wall.Y()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Zambambo",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealth",
+                    "Zambambo.X()",
+                    "Zambambo.Y()+64",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealthBack",
+                    "Zambambo.X()",
+                    "Zambambo.Y()+64",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Zambambo",
+                    "ZambamboHealth"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Zambambo",
+                    "ZambamboHealthBack"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -4750,7 +4890,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4776,14 +4916,6 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
               "events": []
             }
           ],
@@ -4859,6 +4991,17 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BarricadeGhosts",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -4905,6 +5048,17 @@
                     "EquipUI.X()-4+64",
                     "=",
                     "EquipUI.Y()-4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BarricadeGhosts",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -4955,6 +5109,17 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BarricadeGhosts",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -5003,6 +5168,17 @@
                     "EquipUI.Y()-4"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BarricadeGhosts",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -5049,6 +5225,17 @@
                     "EquipUI.X()-4+256",
                     "=",
                     "EquipUI.Y()-4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BarricadeGhosts",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -5522,7 +5709,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Spawns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5575,6 +5762,58 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealth",
+                    "Zambambo.X()",
+                    "Zambambo.Y()+64",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealthBack",
+                    "Zambambo.X()",
+                    "Zambambo.Y()+64",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Zambambo",
+                    "ZambamboHealth"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Zambambo",
+                    "ZambamboHealthBack"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ResetTimer"
                   },
                   "parameters": [
@@ -5595,11 +5834,109 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zambambo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Zambambo",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealth",
+                    "Zambambo",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealthBack",
+                    "Zambambo",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "ZambamboHealth",
+                    "=",
+                    "Zambambo.X()",
+                    "=",
+                    "Zambambo.Y()+64"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "ZambamboHealthBack",
+                    "=",
+                    "Zambambo.X()",
+                    "=",
+                    "Zambambo.Y()+64"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::IsJustDamaged"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    "Health",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Zambambo",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -6050,6 +6387,32 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealth",
+                    "Zambambo",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ZambamboHealthBack",
+                    "Zambambo",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -6060,6 +6423,28 @@
                   },
                   "parameters": [
                     "Zambambo",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ZambamboHealth",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ZambamboHealthBack",
                     ""
                   ],
                   "subInstructions": []
@@ -6076,7 +6461,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6546,7 +6931,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Guns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6569,6 +6954,21 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Firing Mechanics - depending on the equipped weapon a different weapon is fired and nearby zambambos become alerted",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6585,21 +6985,6 @@
               ],
               "actions": [],
               "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Firing Mechanics",
-                  "comment2": ""
-                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -6711,6 +7096,69 @@
                         }
                       ],
                       "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Zambambo",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Zambambo.CenterX()",
+                            "Zambambo.CenterY()",
+                            "Zambambo.AngleToObject(Player)",
+                            "Pistol.Variable(Sound)",
+                            "IntersectionX",
+                            "IntersectionY",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "NbObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                ">",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Zambambo",
+                                "Alert",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 },
@@ -6834,6 +7282,69 @@
                         }
                       ],
                       "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Zambambo",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Zambambo.CenterX()",
+                            "Zambambo.CenterY()",
+                            "Zambambo.AngleToObject(Player)",
+                            "Shotgun.Variable(Sound)",
+                            "IntersectionX",
+                            "IntersectionY",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "NbObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                ">",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Zambambo",
+                                "Alert",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 },
@@ -6948,6 +7459,69 @@
                         }
                       ],
                       "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Zambambo",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Zambambo.CenterX()",
+                            "Zambambo.CenterY()",
+                            "Zambambo.AngleToObject(Player)",
+                            "Rifle.Variable(Sound)",
+                            "IntersectionX",
+                            "IntersectionY",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "NbObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                ">",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Zambambo",
+                                "Alert",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 },
@@ -7062,6 +7636,69 @@
                         }
                       ],
                       "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Zambambo",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Zambambo.CenterX()",
+                            "Zambambo.CenterY()",
+                            "Zambambo.AngleToObject(Player)",
+                            "Assault.Variable(Sound)",
+                            "IntersectionX",
+                            "IntersectionY",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "NbObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                ">",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Zambambo",
+                                "Alert",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -7189,12 +7826,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Health::Health::Hit"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "Zambambo",
-                    "Health",
-                    "Bullet.Variable(Damage)",
+                    "Bullet",
                     ""
                   ],
                   "subInstructions": []
@@ -7202,10 +7837,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Delete"
+                    "value": "Health::Health::Hit"
                   },
                   "parameters": [
-                    "Bullet",
+                    "Zambambo",
+                    "Health",
+                    "Bullet.Variable(Damage)",
                     ""
                   ],
                   "subInstructions": []
@@ -7822,7 +8459,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Materials",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7932,7 +8569,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Time",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
