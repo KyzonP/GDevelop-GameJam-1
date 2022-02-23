@@ -556,6 +556,33 @@
         "name": "Mouse-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tempwall2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tempwall2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tempwall2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tempwall2-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2679,6 +2706,124 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "name": "tempwall1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewObject-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 15.8984375
+                      },
+                      {
+                        "x": 0,
+                        "y": 16.10677146911621
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tempwall2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "tempwall2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tempwall2-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 24.55592155456543
+                      },
+                      {
+                        "x": 32,
+                        "y": 24.292762756347656
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [
@@ -2715,6 +2860,9 @@
         },
         {
           "name": "Barricade"
+        },
+        {
+          "name": "tempwall1"
         }
       ]
     },
@@ -2800,7 +2948,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3099999999999997,
+        "zoomFactor": 0.63,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5914,7 +6062,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Zambambo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6541,7 +6689,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6906,6 +7054,78 @@
                   },
                   "parameters": [
                     "Player",
+                    "tempwall1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "tempwall1",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "tempwall2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "tempwall2",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
                     "Barricade",
                     "",
                     "",
@@ -7011,7 +7231,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Guns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8001,7 +8221,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Barricades",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8601,7 +8821,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Materials",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8763,7 +8983,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Time",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9088,7 +9308,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.31,
+        "zoomFactor": 2.3300000000000014,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9127,12 +9347,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Zambambo",
-          "persistentUuid": "124ec331-8e6f-467b-accf-d2630e7e1a72",
+          "name": "tempwall1",
+          "persistentUuid": "7e8ab33f-e3c8-4744-abf4-98a756826bc6",
           "width": 0,
-          "x": 32,
-          "y": 160,
-          "zOrder": 2,
+          "x": 64,
+          "y": -32,
+          "zOrder": -32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9143,12 +9363,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Zambambo",
-          "persistentUuid": "7dd87d8d-69fc-42c0-86ad-f3279e7e65f1",
+          "name": "tempwall2",
+          "persistentUuid": "10254ba6-53f2-4735-a504-a566c994d005",
           "width": 0,
-          "x": 192,
-          "y": 32,
-          "zOrder": 3,
+          "x": 64,
+          "y": -64,
+          "zOrder": -64,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
